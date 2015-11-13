@@ -1,0 +1,59 @@
+body{
+	width:1200px;
+	background-color:;
+	margin:0px auto;
+	margin-top:25px;
+}
+
+header{
+	background-color:green;
+	height:75px;
+	clear:both;
+}
+
+nav{
+	background-color:yellow;
+	display:block;
+	height:50px;
+
+}
+main{
+	background-color:blue;
+	height:400px;
+	width:800px;
+	float:left;
+
+}
+aside{
+	background-color:red;
+	height:400px;
+	width:400px;
+	float:right;
+
+}
+
+section{
+	background-color:black;
+}
+	div{
+		background-color:grey;
+		height:250px;
+		width:297px;
+		display:inline-block;
+}
+
+footer{
+	background-color:black;
+	height:75px;
+	margin-top:0;
+	clear:both;
+}
+
+@media (max-width:1050px){
+	div{
+		width:598px;
+		height:400px;
+		background-color:purple;
+		display:inline-block;
+	}
+}
